@@ -9,7 +9,7 @@ package ua.lviv.lgs.hw12.task3;
 
 /**
  * * Class SimpleArrayList
- * * Resizable-array implementation of the <tt>List</tt> interface. (simplicity remade of original ArrayList by Oracle )
+ * * Resizable-array implementation of the <tt>List</tt> interface. (simplified remade of original ArrayList by Oracle )
  * 
  * @author alexl
  * 
@@ -99,7 +99,6 @@ public class SimpleArrayList {
 	 *
 	 * @param index the index of the element to be removed
 	 * @return the element that was removed from the list
-	 * @throws IndexOutOfBoundsException {@inheritDoc}
 	 */
 	public Object remove(int index) {
 

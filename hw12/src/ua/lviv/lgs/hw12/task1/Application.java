@@ -44,7 +44,7 @@ public class Application {
 		int y = random.nextInt(9) + 1; // columns +1 (from 1 till 10)
 		// 10 - is the limit of numbers
 
-		List<ArrayList<Auto>> autos = new ArrayList();
+		List<ArrayList<Auto>> autos = new ArrayList<>();
 
 		/* Console block declaration */
 		MainMenu mainMenu = new MainMenu();
